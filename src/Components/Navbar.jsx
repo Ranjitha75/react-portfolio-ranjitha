@@ -12,10 +12,26 @@ const Navbar = () => {
             <img className='mx-2 w-10' src={logo} alt='logo' />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+        <a 
+          href="https://www.linkedin.com/in/ranjitha-m-9604391a2" 
+          target="_blank" 
+          rel="noopener noreferrer" // Security enhancement
+        >
         <FaLinkedin />
+        </a>
+        <a 
+          href="https://github.com/Ranjitha75" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
         <FaGithub />
+        </a>
         <FaWhatsapp />
+        <a
+        href='mailto:your.ranjitharanju0705@gmail.com'
+          >
         <MdEmail />
+        </a>
         </div>
     </nav>
   )
