@@ -28,7 +28,8 @@ const Navbar = () => {
         </a>
         <FaWhatsapp />
         <a
-        href='mailto:your.ranjitharanju0705@gmail.com'
+        href='mailto:ranjitharanju0705@gmail.com'
+        target="_blank" 
           >
         <MdEmail />
         </a>
